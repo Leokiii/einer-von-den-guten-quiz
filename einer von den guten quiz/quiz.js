@@ -59,12 +59,16 @@ let soundOn = true;
 let answered = false;
 let QUIZ_DATA = [];
 
-const imageURL = './public/evdg-hero.jpg.webp';
+// IMAGE PATHS - GitHub Pages ready
+const IMAGE_PATHS = {
+  hero: './public/evdg-hero.jpg.webp',
+  celebration: './public/einer%20von%20den%20guten%20bildern/2000926-2.webp'
+};
 
 // QUIZ DATEN LADEN
 async function loadQuizData() {
   try {
-    console.log('📂 Laden Quiz-Daten von JSON...');
+    console.log('📂 Lade Quiz-Daten...');
     const response = await fetch('./data/questions-optimized.json');
     
     if (!response.ok) {
@@ -73,12 +77,34 @@ async function loadQuizData() {
     
     QUIZ_DATA = await response.json();
     console.log('✅ Quiz erfolgreich geladen:', QUIZ_DATA.length, 'Fragen');
+    
+    // Check image paths
+    checkImagePaths();
+    
     return true;
   } catch (error) {
     console.error('❌ Fehler beim Laden:', error);
     alert('Fehler beim Laden der Quiz-Daten!');
     return false;
   }
+}
+
+// IMAGE PATHS CHECK
+function checkImagePaths() {
+  console.log('🖼️ Checking image paths:');
+  console.log('Hero image:', IMAGE_PATHS.hero);
+  console.log('Celebration image:', IMAGE_PATHS.celebration);
+  
+  // Try to preload images
+  const heroBg = new Image();
+  heroBg.onerror = () => console.warn('⚠️ Hero image might not exist');
+  heroBg.onload = () => console.log('✅ Hero image found');
+  heroBg.src = IMAGE_PATHS.hero;
+  
+  const celebBg = new Image();
+  celebBg.onerror = () => console.warn('⚠️ Celebration image might not exist');
+  celebBg.onload = () => console.log('✅ Celebration image found');
+  celebBg.src = IMAGE_PATHS.celebration;
 }
 
 function startQuiz() {
@@ -101,7 +127,10 @@ function goHome() {
 
 function showPage(page) {
   document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
-  document.getElementById(page).classList.add('active');
+  const pageEl = document.getElementById(page);
+  if (pageEl) {
+    pageEl.classList.add('active');
+  }
 }
 
 // BIERDOSE INTERAKTIVITÄT
@@ -140,7 +169,6 @@ function initBeerDose() {
   });
 }
 
-// CONFETTI
 function createConfetti() {
   const colors = ['#ff6b6b', '#667eea', '#764ba2', '#ff9800', '#4caf50'];
   
@@ -189,6 +217,7 @@ function loadQuestion() {
   document.getElementById('explanation').style.display = 'none';
 
   window.scrollTo(0, 0);
+  console.log('📋 Question', currentQ + 1, 'loaded');
 }
 
 function answer(idx) {

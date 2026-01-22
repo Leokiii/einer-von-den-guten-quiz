@@ -22,11 +22,11 @@
         <img src="./public/evdg-hero.jpg.webp" 
              alt="Hübi & Zeo" 
              class="hero-podcast-image"
-             onerror="console.warn('Hero image not found')">
+             onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22320%22 height=%22320%22%3E%3Crect fill=%22%23667eea%22 width=%22320%22 height=%22320%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 font-size=%2232%22 fill=%22white%22 text-anchor=%22middle%22 dominant-baseline=%22middle%22%3EEVDG%3C/text%3E%3C/svg%3E'; console.log('Hero image loaded from fallback');">
         <img src="./public/einer%20von%20den%20guten%20bildern/2000926-2.webp" 
              alt="Celebration" 
              class="celebration-image"
-             onerror="this.style.display='none'">
+             onerror="this.style.display='none'; console.log('Celebration image not found');">
       </div>
     </div>
   </section>
@@ -126,7 +126,7 @@
          id="quiz-image" 
          src="./public/evdg-hero.jpg.webp" 
          alt="Quiz"
-         onerror="console.warn('Quiz image not found')">
+         onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22800%22 height=%22400%22%3E%3Crect fill=%23335566 width=%22800%22 height=%22400%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 font-size=%2248%22 fill=%22white%22 text-anchor=%22middle%22 dominant-baseline=%22middle%22%3EEVDG Quiz%3C/text%3E%3C/svg%3E'; console.log('Quiz image fallback loaded');">
 
     <div class="quiz-content">
       <h3 class="quiz-question" id="quiz-question">Frage wird geladen...</h3>
@@ -141,7 +141,7 @@
     <div class="celebration" id="celebration">
       <img src="./public/einer%20von%20den%20guten%20bildern/2000926-2.webp" 
            alt="Celebration"
-           onerror="console.warn('Celebration image not found')">
+           onerror="document.getElementById('celebration').style.background='linear-gradient(135deg, #667eea 0%, #764ba2 100%)'; console.log('Using celebration fallback');">
       <div class="celebration-text">🎉 RICHTIG! 🎉</div>
     </div>
   </div>
