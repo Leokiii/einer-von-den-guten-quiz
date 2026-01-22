@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Einer von den Guten – Quiz Arena</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- HOME PAGE -->
+<div id="home-page" class="page active">
+  <!-- HERO SECTION -->
+  <section class="hero" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(139, 0, 50, 0.7)), url('./public/evdg-hero.jpg.webp'); background-size: cover; background-position: center; background-attachment: fixed;">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1 class="hero-title">🎙️ Einer von den Guten</h1>
+        <h2 class="hero-subtitle">Quiz Arena</h2>
+        <p class="hero-description">Das inoffizielle Fan-Quiz über Memes, Zitate und kompletten Wahnsinn</p>
+      </div>
+      <div class="hero-image-wrapper">
+        <img src="./public/evdg-hero.jpg.webp" alt="Hübi & Zeo" class="hero-podcast-image">
+        <img src="./public/einer von den guten bildern/2000926-2.webp" alt="Celebration" class="celebration-image">
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+    <!-- INTRO SECTION -->
+    <section class="intro-card">
+      <div class="intro-content">
+        <h2>✨ Willkommen in der Quiz Arena</h2>
+        <p class="intro-lead">Hier geht es <strong>nicht</strong> um Allgemeinwissen.<br>
+           Hier geht es um <strong>Running Gags</strong>, <strong>peinliche Storys</strong>,<br>
+           <strong>Community-Mythen</strong> und alles, was „Einer von den Guten"<br>
+           zu dem gemacht hat, was es ist.</p>
+        
+        <div class="intro-stats">
+          <div class="stat-item">
+            <span class="stat-number">50</span>
+            <span class="stat-label">Fragen</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">100%</span>
+            <span class="stat-label">Spaß</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">∞</span>
+            <span class="stat-label">Memes</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SPECIAL MESSAGE FOR HOSTS -->
+    <section class="hosts-section">
+      <h3>💬 Falls ihr das hier selbst spielt (Hübi & Zeo):</h3>
+      <div class="hosts-message">
+        <p><strong>Ja</strong> — das ist ein Fan-Projekt.<br>
+           <strong>Nein</strong> — das ist nicht offiziell.</p>
+        
+        <p style="margin-top: 20px;"><strong>Aber:</strong></p>
+        <p>Jede Frage basiert auf Dingen, die <strong>ihr selbst gesagt</strong>,<br>
+           <strong>die Community gememt</strong> oder<br>
+           <strong>das Internet nie wieder vergessen hat</strong>.</p>
+
+        <p style="margin-top: 25px; font-style: italic; color: #667eea; font-weight: 600;">
+          Ihr müsst nichts erklären.<br>
+          Ihr müsst nichts verteidigen.<br>
+          <br>
+          Ihr müsst nur <strong>raten, lachen</strong><br>
+          und akzeptieren, dass das Internet ein Gedächtnis hat. 😄
+        </p>
+      </div>
+    </section>
+
+    <!-- HOW TO PLAY SECTION -->
+    <section class="how-to-play-card">
+      <h2>📋 So funktioniert das Quiz:</h2>
+      
+      <div class="how-to-play-main">
+        <div class="how-to-item">
+          <span class="how-to-number">1</span>
+          <h4>50 Fragen</h4>
+          <p>Das Quiz hat 50 vollständig ausgearbeitete Fragen</p>
+        </div>
+        <div class="how-to-item">
+          <span class="how-to-number">2</span>
+          <h4>Wähle eine Antwort</h4>
+          <p>Jede Frage hat 2 oder 3 konkrete Antworten</p>
+        </div>
+        <div class="how-to-item">
+          <span class="how-to-number">3</span>
+          <h4>Sofort Feedback</h4>
+          <p>Du siehst sofort, ob du richtig lagst + einen Kommentar</p>
+        </div>
+        <div class="how-to-item">
+          <span class="how-to-number">4</span>
+          <h4>Dein Ranking</h4>
+          <p>Am Ende: Punkte, Titel & deine Übersicht</p>
+        </div>
+      </div>
+
+      <div class="how-to-hint">
+        <p>💡 <strong>Du musst erst antworten, bevor du siehst, ob du richtig lagst.</strong></p>
+      </div>
+    </section>
+
+    <!-- MEME RESISTANCE WARNING -->
+    <section class="warning-section">
+      <div class="warning-content">
+        <p class="warning-emoji">⚠️</p>
+        <h3>Wichtig zu wissen:</h3>
+        <p><strong>Dieses Quiz testet kein Wissen,</strong><br>sondern <strong>deine Meme-Resistenz</strong>.</p>
+        <p style="margin-top: 15px;"><strong>Je länger du Fan bist,</strong><br>desto <strong>gefährlicher wird es</strong>.</p>
+      </div>
+    </section>
+
+    <!-- CTA SECTION -->
+    <section class="cta-section">
+      <div class="cta-content">
+        <h2>🎮 Bereit für die Arena?</h2>
+        <p class="cta-subtitle">50 Fragen • Sound & Effekte • Echte Fan-Challenges</p>
+        <button class="btn-start" onclick="startQuiz()">
+          <span class="btn-text">Quiz starten</span>
+          <span class="btn-arrow">→</span>
+        </button>
+        <p class="cta-hint">⏱️ Durchschnittliche Spieldauer: 10–15 Minuten</p>
+      </div>
+    </section>
+
+    <!-- COMMUNITY LINKS SECTION -->
+    <section class="community-section">
+      <h2>🌍 Community & Ressourcen</h2>
+      <p class="section-subtitle">Mehr über den Podcast & die Community:</p>
+      <div class="links-grid">
+        <a href="https://open.spotify.com/show/6zzULDWPdNynkfYXohphg3" target="_blank" class="link-card spotify">
+          <div class="link-icon">🎵</div>
+          <h3>Spotify</h3>
+          <p>Höre alle Episoden</p>
+          <span class="link-arrow">→</span>
+        </a>
+        <a href="https://einer-von-den-guten.fandom.com/de/wiki/Einer_von_den_Guten_Wiki" target="_blank" class="link-card wiki">
+          <div class="link-icon">📚</div>
+          <h3>Fandom Wiki</h3>
+          <p>Community-Knowledge Base</p>
+          <span class="link-arrow">→</span>
+        </a>
+        <a href="https://www.reddit.com/r/einervondenguten/" target="_blank" class="link-card reddit">
+          <div class="link-icon">🔗</div>
+          <h3>Reddit Community</h3>
+          <p>Fan-Diskussionen & Memes</p>
+          <span class="link-arrow">→</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- DISCLAIMER SECTION -->
+    <section class="disclaimer-section">
+      <div class="disclaimer-content">
+        <h3>ⓘ Wichtiger Hinweis</h3>
+        <p>
+          Dies ist ein <strong>reines Fan-Projekt</strong>.<br>
+          Keine offizielle Verbindung zum Podcast „Einer von den Guten".<br>
+          <br>
+          Alle Inhalte sind satirisch gemeint und basieren auf 
+          öffentlich erzählten Geschichten und Community-Memes.
+        </p>
+      </div>
+    </section>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-content">
+      <p class="footer-text">🎙️ Made by fans, for fans</p>
+      <p class="footer-easter-egg">
+        Wenn du hier alles richtig hast, solltest du vielleicht mal rausgehen. 😄
+      </p>
+      <p class="footer-credit">Einer von den Guten ❤️</p>
+    </div>
+  </footer>
+</div>
+
+<!-- QUIZ PAGE -->
+<div id="quiz-page" class="page">
+  <div class="quiz-header">
+    <button class="btn-back" onclick="goHome()">← Zurück</button>
+    <div class="quiz-info">
+      <span>Frage <strong id="q-num">1</strong>/50</span>
+      <span>Punkte: <strong id="q-score">0</strong>/50</span>
+    </div>
+    <button class="btn-sound" onclick="toggleSound()">🔊</button>
+  </div>
+
+  <div class="quiz-container">
+    <div class="progress-bar-wrapper">
+      <div class="progress-bar" id="progress"></div>
+      <span class="progress-text" id="progress-text">0%</span>
+    </div>
+
+    <img class="quiz-image" id="quiz-image" src="./public/evdg-hero.jpg.webp" alt="Quiz">
+
+    <div class="quiz-content">
+      <h3 class="quiz-question" id="quiz-question">Frage wird geladen...</h3>
+      <div class="quiz-options" id="quiz-options"></div>
+    </div>
+
+    <div class="quiz-explanation" id="explanation" style="display: none;">
+      <p id="explanation-text"></p>
+      <button class="btn-next" onclick="nextQuestion()">Nächste Frage →</button>
+    </div>
+
+    <!-- CELEBRATION OVERLAY -->
+    <div class="celebration" id="celebration">
+      <img src="./public/einer von den guten bildern/2000926-2.webp" 
+           alt="Celebration Bierdose"
+           onerror="console.warn('Celebration image not found')">
+      <div class="celebration-text">🎉 RICHTIG! 🎉</div>
+    </div>
+  </div>
+
+  <!-- INTERACTIVE BEER DOSE -->
+  <div class="beer-deco" title="Klick mich! 🍺">🍺</div>
+</div>
+
+<!-- RESULTS PAGE -->
+<div id="results-page" class="page">
+  <div class="results-container">
+    <h1>🎉 Quiz Abgeschlossen!</h1>
+    <div class="score-display">
+      <div class="score-circle">
+        <span id="final-score">0</span>
+        <span>/50</span>
+      </div>
+      <div id="final-percentage">0%</div>
+    </div>
+    <h2 id="final-title">Laden...</h2>
+    <p id="final-message"></p>
+    <div class="results-buttons">
+      <button class="btn-start" onclick="startQuiz()">Nochmal spielen 🔄</button>
+      <button class="btn-back" onclick="goHome()">Zur Startseite 🏠</button>
+    </div>
+  </div>
+</div>
+
+<script src="quiz.js"></script>
+</body>
+</html>
