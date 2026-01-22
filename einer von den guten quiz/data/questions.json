@@ -1,0 +1,7 @@
+[
+  {"id":1,"text":"Wie habt ihr euch das allererste Mal getroffen?","options":["In der Schule","Über YouTube","Auf einer Party"],"correct_index":2,"explanation":"Sie trafen sich auf einer Party und merkten schnell, dass sie harmonieren! 🎉"},
+  {"id":2,"text":"Wer hat die verrücktere Kindheitsstory?","options":["Hübi","Zeo","Beide gleich"],"correct_index":0,"explanation":"Hübi hat definitiv die wildere Backstory mit mehr Chaos. 🤣"},
+  {"id":3,"text":"Was ist das Erkennungsmerkmal für Hübis Abenteuer?","options":["Die roten Haare","Der Wahnsinn und die Spontanität","Die Angststörungen"],"correct_index":1,"explanation":"Hübi ist bekannt für seine verrückten, spontanen Abenteuer! 🚀"},
+  {"id":4,"text":"Wer von beiden ist eher die 'Vernunft'?","options":["Definitiv Zeo","Definitiv Hübi","Sie sind sich gleich verrückt"],"correct_index":0,"explanation":"Zeo ist die ruhigere, besser überlegte Seite! 🧠"},
+  {"id":5,"text":"Welches Getränk ist ein Running Gag im Podcast?","options":["Bier","Energy Drinks","Tee und Kaffee"],"correct_index":1,"explanation":"Energy Drinks sind ein großer Running Gag! ⚡"}
+]

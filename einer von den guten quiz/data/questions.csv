@@ -1,0 +1,51 @@
+id,text,option_a,option_b,option_c,correct_index,explanation
+1,Wie habt ihr euch das allererste Mal getroffen?,Auf einer Party an die sich keiner erinnert,Auf einem Gaming-Event,Online per Chat erstes Treffen war extrem peinlich,2,Sie trafen sich online und das erste Treffen war sehr peinlich.
+2,Wer hat die verrücktere Kindheitsstory?,Huebi,Zeo,,0,Huebi hat die wildere Backstory.
+3,Was war die absurdeste DM die ihr je bekommen habt?,Angebot eines Bienenvolks,500 Wörter über Käse im Schuh,Ich bin euer verlorener Cousin,1,Das Käse-im-Schuh-Manifest war legendär.
+4,Wenn der Podcast ein Gericht wäre – was ist Huebi?,Ungesalzener Cracker,Käse im Schuh,Bienen-Gulasch,0,Huebi = der langweilige ungesalzene Cracker im Vergleich zu Zeo.
+5,Welches Zitat wurde am häufigsten zum Meme?,Zeo geht es nicht gut,Huebi ist ein ungesalzener Cracker,Die Würde einer Biene,1,Das Cracker-Meme ist absolut geworden.
+6,Was sollte mit dem Huebi-Face-Meme passieren?,Verbieten,Als Merch neu auflegen,Community entscheiden lassen,1,Es gab tatsächlich Merch-Überlegungen.
+7,Was war die chaotischste Aufnahme?,Technik komplett ausgefallen,Lachflash Folge kaum fortsetzbar,Live-Publikum außer Kontrolle,1,Die Lachflash-Episoden sind legendär.
+8,Wer hat die dümmste Challenge erfunden?,Huebi,Zeo,Beide zusammen,2,Sie erfinden Challenges gemeinsam.
+9,Gab es eine Story die erst gelogen klang aber wahr war?,Nein,Teilweise,Komplett,1,Viele Stories klingen zu wild um wahr zu sein.
+10,Wie viele Fans glauben an eine dumme Verschwörungstheorie?,Unter 1 %,1–10 %,Über 10 %,1,Eine überraschend große Fanbase.
+11,Hater-Kommentare werden eher …,Geliked,Geteilt,,0,Hater-Kommentare bekommen paradoxerweise viele Likes.
+12,Welcher Traumgast wird öfter genannt?,Promi / YouTuber,Random Fan,,0,Fans wünschen sich immer prominente Gäste.
+13,Wie viel Vorbereitung steckt in einer Folge?,0–15 Minuten,15–60 Minuten,Über 1 Stunde,1,Sie bereiten sich gründlich vor.
+14,Welches Thema akzeptiert die Community eher als Satire?,Dating,Politik,,0,Dating-Satire funktioniert besser.
+15,Wer gewinnt das Blind-Käse-Ranking?,Huebi,Zeo,Unentschieden,1,Zeo hat bessere Käse-Instinkte.
+16,Welches Zitat wird am meisten in Reels genutzt?,Zeo geht es nicht gut,Ungesalzener Cracker,Bienen-Zitat,1,Der Cracker-Ausdruck dominiert Instagram.
+17,Wie viele Fans lösen ein Insider-Rätsel in 1 Stunde?,Unter 100,100–1.000,Über 1.000,1,Die Community ist motiviert und schnell.
+18,Beliebteste Merch-Idee?,Kaffeetasse,Bierglas,Meme-Shirt,2,Meme-Shirts sind das beste Merch.
+19,Wie oft kommt die dümmste Fanfrage vor?,Nie,1–5 Mal,Über 5 Mal,2,Dumme Fragen sind konstant.
+20,Wie viele Zuhörer bekamen das größte Missverständnis mit?,Unter 1.000,1.000–20.000,Über 20.000,1,Viral-Missverständnis bei 1000-20k Leuten.
+21,Würdet ihr eine komplette Folge improvisieren?,Ja spontan live,Nein nur geplant,Als Special-Event,2,Improvisation gibt es nur als Special.
+22,Wenn euer Podcast eine Fernsehserie wäre — welches Genre?,Sitcom,Mockumentary,Late-Night/Variety,0,Sitcom passt perfekt zum Humor.
+23,Wer nervt offline mehr?,Huebi,Zeo,Beide gleich,0,Huebi ist offline noch wilder.
+24,Wer hat die melodramatischste Story laut Wiki?,Huebi,Zeo,Beide gleich,0,Huebi dramatisiert gerne.
+25,Falsches Horoskop — welches nimmt die Community am ehesten ernst?,Steinbock: Du erklärst aus Versehen einem Bienenvolk die Million.,Wassermann: Dein wahres Ich ist ein ungesalzener Cracker.,Zwillinge: Vermeide sprechende Küchengeräte.,1,Das Cracker-Horoskop spricht die Fans an.
+26,Welches ist euer heimliches Guilty-Pleasure-Song?,Pop-Song X (peinlich),Schlager-Hit Y,TikTok-Meme Song Z,2,Sie mögen Meme-Songs heimlich.
+27,Welcher Running-Gag soll neu gestartet werden?,Zeo vs. Bier,Huebi-Face,'Einer von den …' Meme-Template,0,Zeo vs. Bier ist zeitlos.
+28,Wie lange dauerte der legendäre Spontan-Lacher?,<10 Sek.,10–60 Sek.,>60 Sek.,1,Der Lacher war 10-60 Sekunden lang.
+29,Welche drei Fragen darf man NIE in Live-Q stellen?,Alle drei (Einkommen/Ex/Spiel echt?),Nur A & B,Nur B & C,0,Diese drei sind tabu.
+30,Peinlichste Freundschafts-Minute on-air — wie viele Zuhörer schauten stumm zu?,<1.000,1.000–10.000,>10.000,1,1000-10k Zuhörer waren betroffen.
+31,Wer beantwortet die 'Dumme Frage des Monats' am ernsthaftesten?,Huebi,Zeo,,0,Huebi nimmt Dummfragen ernst.
+32,Beschreibt den perfekten Fan in drei Worten — welche Beschreibung gewinnt?,Loyal laut kreativ,Frech meme-versiert schüchtern,Kostümiert laut emotional,0,Der perfekte Fan ist loyal laut und kreativ.
+33,Wieviel ml hat die geheime Zutat im 'Einer von den Guten'-Cocktail?,5–15 ml,15–40 ml,40–100 ml,0,Die Zutat ist sparsam dosiert.
+34,Welcher Flop bekam den größten viralen Push (Streams Woche 1)?,<5.000,5.000–100.000,>100.000,1,Selbst Flops werden viral.
+35,Habt ihr ein Ritual vor Aufnahmen?,Ja kleines Ritual (High-Five Bier Joke),Nein nie,Manchmal nur bei Tours,2,Rituale nur auf Tours.
+36,Wer würde im Survival-Szenario überleben?,Huebi,Zeo,Gleiche Überlebenszeit,1,Zeo ist der bessere Survivor.
+37,Wie viele Leute waren beim kuriosen Backstage-Moment dabei?,1–5,6–20,>20,1,6-20 Personen beim Moment.
+38,Welches Meme wäre das Kronjuwel im Meme-Museum?,Zeo vs. Bier Collage,Huebi-Face Print,Andi500-Legend,0,Das Zeo vs. Bier Meme ist kultiger.
+39,Welches Promo-Foto gewinnt 'Most Iconic Awkward'?,Live-Selfie (Huebi mit Bier),Gestellte Promo (übertrieben),Blurry Backstage,0,Das Live-Selfie mit Bier ist ikonisch.
+40,Wer weint heimlich öfter bei Fan-Danksagungen?,Huebi,Zeo,Keiner von beiden,0,Huebi ist emotional bei Danksagungen.
+41,Welche königliche Pflicht wäre für Zeo am peinlichsten?,Morgendliche Parade in Unterhose,Offizielle Rede über Bier-Etikette,Zeremonielles Kuchenessen,1,Die Bier-Rede wäre für Zeo peinlich.
+42,Dümmste Fan-Hypothese — wie viel Prozent halten sie für plausibel?,<5%,5–25%,<25%,0,Weniger als 5% halten sie für plausibel.
+43,Was würdet ihr eher opfern: Podcast für 1 Jahr oder Socials für 1 Jahr?,Podcast,Socials,Keins — beides nicht,1,Sie würden eher Socials opfern.
+44,Wie lange dauerte das synchronste Lachen (viral clip)?,<10 Sek.,10–60 Sek.,>60 Sek.,1,Synchrones Lachen 10-60 Sekunden.
+45,Wie viele Meme errät ein Host in 90 Sek. beim Live-Impro?,0–3,4–10,>10,1,4-10 Memes pro 90 Sekunden.
+46,Welcher fiktive Episoden-Plot gewinnt?,Roadtrip: 'Tourchaos & Autopanne',Krimi: 'Wer klaute das Bier?',Sci-Fi: 'Zeo & Huebi im Jahr 3000',0,Der Roadtrip-Plot wäre am besten.
+47,Wie viele persönliche DMs bekamen die Hosts nach der emotionalen Folge?,<100,100–1.000,>1.000,1,100-1000 DMs nach emotionalen Folgen.
+48,Welcher von drei dümmsten Hypes wurde am meisten nachgeahmt?,Käse im Schuh,Vorhaut & Bienen,Zeo vs. Bier,2,Zeo vs. Bier Hype ist zeitlos.
+49,'Huebi's Küchenkatastrophen' — wöchentlich oder Special?,Wöchentlich,Nur Special,,1,Es gibt nur gelegentliche Specials.
+50,Meta: Was wollen neue Hörer nach 3 Folgen wissen?,Sind die wirklich so peinlich/offen?,Welche Folge ist der beste Einstieg?,Welche Running-Gags muss ich kennen?,0,Neue Hörer fragen sich ob die Hosts echt so sind.

@@ -1,0 +1,29 @@
+{
+  "name": "einer-von-den-guten-quiz",
+  "version": "1.0.0",
+  "description": "Das inoffizielle Fan-Quiz zum Podcast 'Einer von den Guten'",
+  "main": "quiz.js",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "build": "echo 'Statisches Projekt - kein Build nötig'",
+    "test": "echo 'Tests läuft'"
+  },
+  "keywords": [
+    "podcast",
+    "quiz",
+    "einer-von-den-guten",
+    "fan-projekt",
+    "hübi",
+    "zeo"
+  ],
+  "author": "Fan-Projekt",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "sources": {
+    "unsplash": "https://images.unsplash.com/",
+    "spotify": "https://i.scdn.co/image/",
+    "fallback": "https://images.unsplash.com/photo-1487215078519-e21cc028cb29?w=1200&h=675&fit=crop&q=90"
+  },
+  "images": {
+    "hero": "https://images.unsplash.com/photo-1487215078519-e21cc028cb29?w=1920&h=1080&fit=crop&q=95",
+    "podcast_logo": "https://i.scdn.co/image/ab67616d0000b273",
+    "party": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=1200&h=675&fit=crop&q=90",
+    "childhood": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=1200&h=675&fit=crop&q=90",
+    "adventure": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=1200&h=675&fit=crop&q=90",
+    "brain": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&h=675&fit=crop&q=90",
+    "energy": "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=1200&h=675&fit=crop&q=90",
+    "travel": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=1200&h=675&fit=crop&q=90",
+    "community": "https://images.unsplash.com/photo-1509909756405-dfc993d674a9?w=1200&h=675&fit=crop&q=90",
+    "food": "https://images.unsplash.com/photo-1571409566011-00b7bfb4905e?w=1200&h=675&fit=crop&q=90",
+    "forest": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1200&h=675&fit=crop&q=90",
+    "studio": "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?w=1200&h=675&fit=crop&q=90",
+    "laugh": "https://images.unsplash.com/photo-1516321318423-f06f70d504f0?w=1200&h=675&fit=crop&q=90",
+    "storytelling": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=1200&h=675&fit=crop&q=90",
+    "podcast": "https://images.unsplash.com/photo-1611339555312-e607c04352fa?w=1200&h=675&fit=crop&q=90",
+    "cracker": "https://images.unsplash.com/photo-1599599810694-d6e55f3db7b8?w=1200&h=675&fit=crop&q=90",
+    "bee": "https://images.unsplash.com/photo-1540932015986-a8699c49cb3d?w=1200&h=675&fit=crop&q=90",
+    "water": "https://images.unsplash.com/photo-1505142468610-359e7d316be0?w=1200&h=675&fit=crop&q=90",
+    "car": "https://images.unsplash.com/photo-1464207687429-7505649dae38?w=1200&h=675&fit=crop&q=90",
+    "music": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=1200&h=675&fit=crop&q=90",
+    "food_love": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=1200&h=675&fit=crop&q=90",
+    "pool": "https://images.unsplash.com/photo-1439405326854-014607f694d7?w=1200&h=675&fit=crop&q=90"
+  }
+}

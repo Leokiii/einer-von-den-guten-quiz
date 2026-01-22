@@ -1,0 +1,24 @@
+{
+  "podcast": {
+    "name": "Einer von den Guten",
+    "artists": ["Hübi", "Zeo"],
+    "main_image": "https://i.scdn.co/image/ab67616d0000b273einfervondenguten",
+    "cover_images": {
+      "hero": "https://images.unsplash.com/photo-1487215078519-e21cc028cb29?w=1920&h=1080&fit=crop&q=95",
+      "hueb_zeo": "https://i.scdn.co/image/ab67616d0000b273",
+      "podcast_cover": "https://i.ytimg.com/vi/EVJG6EMIVWE/maxresdefault.jpg"
+    },
+    "colors": {
+      "primary": "#667eea",
+      "secondary": "#764ba2",
+      "accent": "#ff6b6b",
+      "background": "#1a1a2e"
+    },
+    "links": {
+      "spotify": "https://open.spotify.com/show/6zzULDWPdNynkfYXohphg3",
+      "youtube": "https://www.youtube.com/c/EinerVonDenGuten",
+      "wiki": "https://einer-von-den-guten.fandom.com/de/wiki/Einer_von_den_Guten_Wiki",
+      "reddit": "https://www.reddit.com/r/einervondenguten/"
+    }
+  }
+}

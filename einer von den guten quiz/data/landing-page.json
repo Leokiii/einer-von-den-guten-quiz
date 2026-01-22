@@ -1,0 +1,77 @@
+{
+  "hero": {
+    "main_title": "Einer von den Guten – Quiz Arena",
+    "subtitle": "Das inoffizielle Fan-Quiz über Memes, Zitate und kompletten Wahnsinn.",
+    "hero_image": "https://images.unsplash.com/photo-1516321318423-f06f70d504f0?w=1200&h=600&fit=crop"
+  },
+  "intro_section": {
+    "title": "Willkommen in der Quiz Arena",
+    "description": "Hier geht es nicht um Allgemeinwissen.\nHier geht es um Running Gags, peinliche Storys,\nCommunity-Mythen und alles, was „Einer von den Guten"\nzu dem gemacht hat, was es ist."
+  },
+  "creators_message": {
+    "title": "Falls ihr das hier selbst spielt (Hübi & Zeo):",
+    "content": "Ja — das ist ein Fan-Projekt.\nNein — das ist nicht offiziell.\n\nAber:\nJede Frage basiert auf Dingen, die ihr selbst gesagt,\ndie Community gememt oder\ndas Internet nie wieder vergessen hat.\n\nIhr müsst nichts erklären.\nIhr müsst nichts verteidigen.\n\nIhr müsst nur raten, lachen\nund akzeptieren, dass das Internet ein Gedächtnis hat."
+  },
+  "how_to_play": {
+    "title": "So funktioniert das Quiz:",
+    "steps": [
+      {
+        "number": 1,
+        "text": "Das Quiz hat 50 Fragen"
+      },
+      {
+        "number": 2,
+        "text": "Jede Frage hat 2 oder 3 Antworten"
+      },
+      {
+        "number": 3,
+        "text": "Du musst eine Antwort wählen"
+      },
+      {
+        "number": 4,
+        "text": "Erst danach siehst du: ob du richtig oder falsch lagst + einen kurzen Kommentar"
+      },
+      {
+        "number": 5,
+        "text": "Am Ende bekommst du: deine Punktzahl, einen Titel & eine Übersicht deiner Antworten"
+      }
+    ]
+  },
+  "fun_warning": {
+    "title": "⚠️ Wichtig:",
+    "content": "Dieses Quiz testet kein Wissen,\nsondern deine Meme-Resistenz.\n\nJe länger du Fan bist,\ndesto gefährlicher wird es."
+  },
+  "cta_button": {
+    "text": "Quiz starten",
+    "hint": "Du musst erst antworten, bevor du siehst, ob du richtig lagst.",
+    "action": "/quiz"
+  },
+  "external_links": {
+    "title": "Mehr über den Podcast:",
+    "links": [
+      {
+        "name": "🎵 Spotify",
+        "url": "https://open.spotify.com/show/6zzULDWPdNynkfYXohphg3?si=6150291459d14bf6",
+        "description": "Höre die neuesten Episoden"
+      },
+      {
+        "name": "📚 Fandom Wiki",
+        "url": "https://einer-von-den-guten.fandom.com/de/wiki/Einer_von_den_Guten_Wiki",
+        "description": "Umfassendes Community-Wiki"
+      },
+      {
+        "name": "🔗 Reddit Community",
+        "url": "https://www.reddit.com/r/einervondenguten/",
+        "description": "Diskussionen & Memes"
+      }
+    ]
+  },
+  "disclaimer": {
+    "title": "Hinweis:",
+    "content": "Dies ist ein reines Fan-Projekt.\n\nKeine offizielle Verbindung zum Podcast\n„Einer von den Guten".\n\nAlle Inhalte sind satirisch gemeint\nund basieren auf öffentlich erzählten Geschichten\nund Community-Memes."
+  },
+  "footer": {
+    "easter_egg": "Wenn du hier alles richtig hast, solltest du vielleicht mal rausgehen.",
+    "stream_intro": "Das hier ist ein Fan-Quiz.\nWir haben das nicht gemacht.\nWir übernehmen keine Verantwortung.\n\nFalls das peinlich wird:\nDas Internet war schuld."
+  }
+}
